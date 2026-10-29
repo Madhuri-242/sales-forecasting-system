@@ -6,7 +6,7 @@ from datetime import date, timedelta
 import pandas as pd
 from faker import Faker
 fake = Faker()
-
+fake.seed_instance(20261022)
 # Territory
 territories = []
 for i in range(1, 11):
